@@ -14,7 +14,10 @@ description: >
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: 3D vision, novel view synthesis, Gaussian Splatting, depth estimation, computer vision
+keywords:
+  novel view synthesis, 3D Gaussian Splatting, sparse-view reconstruction,
+  point cloud processing,  3D scene completion,
+  computer vision, diffusion models, neural rendering
 lang: en
 icon: ⚛️
 url: https://tanveeryounis.github.io
@@ -22,6 +25,35 @@ baseurl: # leave completely blank
 last_updated: false
 impressum_path:
 back_to_top: true
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: tanveeryounis
+gitlab_username:
+twitter_username:
+linkedin_username:
+scholar_userid:           # add later when you create Scholar profile
+semanticscholar_id:
+whatsapp_number:
+orcid_id: 0009-0006-2080-4251
+medium_username:
+quora_username:
+publons_id:
+lattes_id:
+osf_id:
+research_gate_profile:
+scopus_id:
+blogger_url:
+work_url: https://www.siat.ac.cn/en/
+keybase_username:
+wikidata_id:
+dblp_url:
+stackoverflow_id:
+kaggle_id:
+email: younis@siat.ac.cn
+
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -278,8 +310,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Younis]
+  first_name: [Tanveer]
 
   style: apa
   locale: en
