@@ -11,52 +11,52 @@ cv:
 
   sections:
     summary:
-      - "PhD Candidate in Computer Vision and Pattern Recognition at Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences. Research focuses on sparse-view 3D reconstruction, novel view synthesis, and 3D Gaussian Splatting. Strong background in deep learning and computer vision with teaching and publication experience."
+      - "PhD Candidate in Computer Vision at Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences. Research focuses on sparse-view 3D reconstruction, novel view synthesis, and 3D Gaussian Splatting. Strong background in deep learning and computer vision with teaching and publication experience."
 
     education:
       - institution: Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences
-        area: Computer Vision
+        area: Computer Vision and Pattern Recognition
         degree: PhD
-        start_date: "2023"
+        start_date: 2023-09-01
         end_date: present
         highlights:
-          - "Supervisor: Prof. Zhanglin Cheng"
-          - "Research: 3D Gaussian Splatting, Novel View Synthesis, Sparse-View Reconstruction"
+          - "Supervisor: Prof. Zhanglin Cheng, Shenzhen VisuCA Key Lab"
+          - "Focus: 3D Gaussian Splatting, Novel View Synthesis, Sparse-View Reconstruction"
 
       - institution: National Textile University, Faisalabad, Pakistan
         area: Computer Science
         degree: MS
-        start_date: "2016"
-        end_date: "2018"
+        start_date: 2016-01-01
+        end_date: 2018-12-31
         highlights:
           - "Gold Medalist — First position in MS Computer Science"
-          - "Thesis: Virtual Board for Smart Classroom using Computer Vision"
+          - "Thesis: Virtual Board for Smart Classroom using Computer Vision (OpenCV)"
 
       - institution: University of Engineering and Technology, Lahore, Pakistan
         area: Computer Science
         degree: BS
-        start_date: "2011"
-        end_date: "2015"
+        start_date: 2011-01-01
+        end_date: 2015-12-31
         highlights:
-          - "Final Year Project: Face Recognition System using PCA"
+          - "Final Year Project: Face Recognition System using PCA in MATLAB"
 
     experience:
       - company: Riphah International University
         position: Lecturer
         location: Faisalabad, Pakistan
-        start_date: "2018"
-        end_date: "2023"
+        start_date: 2018-01-01
+        end_date: 2023-01-01
         highlights:
-          - "Taught undergraduate courses in Computer Science"
-          - "Supervised student projects in computer vision and programming"
+          - "Taught undergraduate courses in Computer Science and Programming"
+          - "Supervised student projects in computer vision and software development"
 
       - company: NFC-IEFR
         position: Lab Demonstrator
         location: Faisalabad, Pakistan
-        start_date: "2016"
-        end_date: "2018"
+        start_date: 2016-01-01
+        end_date: 2018-01-01
         highlights:
-          - "Conducted programming and computer science lab sessions"
+          - "Conducted programming and computer science laboratory sessions"
 
     publications:
       - title: "SplatFusion: Training-Free 3D Scene Completion from Sparse Views Using Temporal Diffusion Priors and Gaussian Splatting"
@@ -64,37 +64,20 @@ cv:
           - Tanveer Younis
           - Dawar Khan
           - Zhanglin Cheng
-        journal: International Conference on 3D Vision (3DV)
-        year: "2026"
-        note: "To appear"
-
-      - title: "E3D-NVS: Novel View Synthesis from a Single Unposed Image Using Explicit 3D Representation"
-        authors:
-          - Tanveer Younis
-          - Dawar Khan
-          - Zhanglin Cheng
-        journal: Computers & Graphics, Elsevier
-        year: "2026"
-        note: "Under revision"
-
-      - title: "A Review of Current Security Issues in IoT"
-        authors:
-          - Tanveer Younis
-        journal: Springer
-        year: "2019"
+        doi: ""
+        date: 2026-01-01
+        journal: "International Conference on 3D Vision (3DV) — To appear"
 
     skills:
-      - label: Programming
+      - label: Programming Languages
         details: "Python, MATLAB, C/C++, C#, Java, SQL, PHP, HTML, CSS"
-
       - label: Computer Vision & AI
         details: "3D Gaussian Splatting, Novel View Synthesis, Deep Learning, Generative Models, Sparse-View Reconstruction"
-
       - label: Tools & Frameworks
         details: "PyTorch, OpenCV, MATLAB, Anaconda, Linux, NS-2"
 
     honors:
-      - "**Gold Medalist** — First position in MS Computer Science, National Textile University Faisalabad"
+      - "**Gold Medalist** — First position in MS Computer Science, National Textile University Faisalabad, Pakistan"
 
     languages:
       - label: English
