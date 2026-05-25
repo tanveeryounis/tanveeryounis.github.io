@@ -19,7 +19,7 @@ cv:
         url: https://www.siat.ac.cn/en/
         area: Computer Vision and Pattern Recognition
         studyType: PhD
-        start_date: 2023
+        start_date: 2023-09-01
         end_date: present
         highlights:
           - "Supervisor: Prof. Zhanglin Cheng, Shenzhen VisuCA Key Lab"
@@ -29,8 +29,8 @@ cv:
         location: Faisalabad, Pakistan
         area: Computer Science
         studyType: MS
-        start_date: 2016
-        end_date: 2018
+        start_date: 2016-09-01
+        end_date: 2018-06-30
         highlights:
           - "Gold Medalist — First position in MS Computer Science"
           - "Thesis: Virtual Board for Smart Classroom using Computer Vision (OpenCV)"
@@ -39,8 +39,8 @@ cv:
         location: Lahore, Pakistan
         area: Computer Science
         studyType: BS
-        start_date: 2011
-        end_date: 2015
+        start_date: 2011-09-01
+        end_date: 2015-06-30
         highlights:
           - "Final Year Project: Face Recognition System using PCA in MATLAB"
 
@@ -48,8 +48,8 @@ cv:
       - company: Riphah International University
         position: Lecturer
         location: Faisalabad, Pakistan
-        start_date: 2018
-        end_date: 2023
+        start_date: 2018-07-01
+        end_date: 2023-01-01
         highlights:
           - "Taught undergraduate courses in Computer Science and Programming"
           - "Supervised student projects in computer vision and software development"
@@ -57,8 +57,8 @@ cv:
       - company: NFC-IEFR
         position: Lab Demonstrator
         location: Faisalabad, Pakistan
-        start_date: 2016
-        end_date: 2018
+        start_date: 2016-01-01
+        end_date: 2018-06-30
         highlights:
           - "Conducted programming and computer science laboratory sessions"
 
@@ -69,30 +69,15 @@ cv:
           - Dawar Khan
           - Zhanglin Cheng
         publisher: International Conference on 3D Vision (3DV)
-        releaseDate: 2026
+        releaseDate: 2026-01-01
         summary: "A training-free framework leveraging pretrained video diffusion priors with Scene-Consistent Temporal Guidance (SCTG) for sparse-view 3D reconstruction from only 2-3 wide-baseline images."
 
-      - title: "E3D-NVS: Novel View Synthesis from a Single Unposed Image Using Explicit 3D Representation"
-        authors:
-          - Tanveer Younis
-          - Dawar Khan
-          - Zhanglin Cheng
-        publisher: "Computers & Graphics, Elsevier"
-        releaseDate: 2026
-        summary: "A calibration-free framework synthesizing novel views from a single unposed RGB image using explicit 3D point cloud representation and GeoScaleNet for focal length refinement."
-
-      - title: "A Review of Current Security Issues in IoT"
-        authors:
-          - Tanveer Younis
-        publisher: Springer
-        releaseDate: 2019
-        summary: "A comprehensive review of security vulnerabilities and challenges in Internet of Things ecosystems."
 
     Awards:
       - title: Gold Medal
         authors:
-          - National Textile University, Faisalabad, Pakistan
-        date: 2018
+          - "National Textile University, Faisalabad, Pakistan"
+        date: 2018-06-30
         awarder: National Textile University
         summary: "Awarded for achieving first position in MS Computer Science."
 
@@ -123,7 +108,3 @@ cv:
       - name: Prof. Zhanglin Cheng
         icon: fa-solid fa-user
         reference: "Supervisor, Shenzhen VisuCA Key Lab, SIAT, Chinese Academy of Sciences. zl.cheng@siat.ac.cn"
-
-      - name: Dr. Dawar Khan
-        icon: fa-solid fa-user
-        reference: "Collaborator, King Abdullah University of Science and Technology (KAUST). dawar.khan@kaust.edu.sa"
