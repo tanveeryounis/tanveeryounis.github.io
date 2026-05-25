@@ -1,51 +1,55 @@
 cv:
   name: Tanveer Younis
-  location: Shenzhen, China
+  label: PhD Candidate | Computer Vision
   email: younis@siat.ac.cn
-  website: https://tanveeryounis.github.io
+  location: Shenzhen, China
+  image: ""
+  summary: PhD Candidate in Computer Vision and Pattern Recognition at Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences. Research focuses on sparse-view 3D reconstruction, novel view synthesis, and 3D Gaussian Splatting. Strong background in deep learning and computer vision with teaching and publication experience.
+
   social_networks:
     - network: GitHub
       username: tanveeryounis
-    - network: ORCID
-      username: 0009-0006-2080-4251
+    - network: LinkedIn
+      username: tanveeryounis
 
   sections:
-    summary:
-      - "PhD Candidate in Computer Vision at Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences. Research focuses on sparse-view 3D reconstruction, novel view synthesis, and 3D Gaussian Splatting. Strong background in deep learning and computer vision with teaching and publication experience."
-
-    education:
+    Education:
       - institution: Shenzhen Institute of Advanced Technology (SIAT), Chinese Academy of Sciences
+        location: Shenzhen, China
+        url: https://www.siat.ac.cn/en/
         area: Computer Vision and Pattern Recognition
-        degree: PhD
-        start_date: 2023-09-01
+        studyType: PhD
+        start_date: 2023
         end_date: present
         highlights:
           - "Supervisor: Prof. Zhanglin Cheng, Shenzhen VisuCA Key Lab"
-          - "Focus: 3D Gaussian Splatting, Novel View Synthesis, Sparse-View Reconstruction"
+          - "Research: 3D Gaussian Splatting, Novel View Synthesis, Sparse-View Reconstruction"
 
-      - institution: National Textile University, Faisalabad, Pakistan
+      - institution: National Textile University
+        location: Faisalabad, Pakistan
         area: Computer Science
-        degree: MS
-        start_date: 2016-01-01
-        end_date: 2018-12-31
+        studyType: MS
+        start_date: 2016
+        end_date: 2018
         highlights:
           - "Gold Medalist — First position in MS Computer Science"
           - "Thesis: Virtual Board for Smart Classroom using Computer Vision (OpenCV)"
 
-      - institution: University of Engineering and Technology, Lahore, Pakistan
+      - institution: University of Engineering and Technology
+        location: Lahore, Pakistan
         area: Computer Science
-        degree: BS
-        start_date: 2011-01-01
-        end_date: 2015-12-31
+        studyType: BS
+        start_date: 2011
+        end_date: 2015
         highlights:
           - "Final Year Project: Face Recognition System using PCA in MATLAB"
 
-    experience:
+    Experience:
       - company: Riphah International University
         position: Lecturer
         location: Faisalabad, Pakistan
-        start_date: 2018-01-01
-        end_date: 2023-01-01
+        start_date: 2018
+        end_date: 2023
         highlights:
           - "Taught undergraduate courses in Computer Science and Programming"
           - "Supervised student projects in computer vision and software development"
@@ -53,34 +57,73 @@ cv:
       - company: NFC-IEFR
         position: Lab Demonstrator
         location: Faisalabad, Pakistan
-        start_date: 2016-01-01
-        end_date: 2018-01-01
+        start_date: 2016
+        end_date: 2018
         highlights:
           - "Conducted programming and computer science laboratory sessions"
 
-    publications:
+    Publications:
       - title: "SplatFusion: Training-Free 3D Scene Completion from Sparse Views Using Temporal Diffusion Priors and Gaussian Splatting"
         authors:
           - Tanveer Younis
           - Dawar Khan
           - Zhanglin Cheng
-        doi: ""
-        date: 2026-01-01
-        journal: "International Conference on 3D Vision (3DV) — To appear"
+        publisher: International Conference on 3D Vision (3DV)
+        releaseDate: 2026
+        summary: "A training-free framework leveraging pretrained video diffusion priors with Scene-Consistent Temporal Guidance (SCTG) for sparse-view 3D reconstruction from only 2-3 wide-baseline images."
 
-    skills:
-      - label: Programming Languages
-        details: "Python, MATLAB, C/C++, C#, Java, SQL, PHP, HTML, CSS"
-      - label: Computer Vision & AI
-        details: "3D Gaussian Splatting, Novel View Synthesis, Deep Learning, Generative Models, Sparse-View Reconstruction"
-      - label: Tools & Frameworks
-        details: "PyTorch, OpenCV, MATLAB, Anaconda, Linux, NS-2"
+      - title: "E3D-NVS: Novel View Synthesis from a Single Unposed Image Using Explicit 3D Representation"
+        authors:
+          - Tanveer Younis
+          - Dawar Khan
+          - Zhanglin Cheng
+        publisher: "Computers & Graphics, Elsevier"
+        releaseDate: 2026
+        summary: "A calibration-free framework synthesizing novel views from a single unposed RGB image using explicit 3D point cloud representation and GeoScaleNet for focal length refinement."
 
-    honors:
-      - "**Gold Medalist** — First position in MS Computer Science, National Textile University Faisalabad, Pakistan"
+      - title: "A Review of Current Security Issues in IoT"
+        authors:
+          - Tanveer Younis
+        publisher: Springer
+        releaseDate: 2019
+        summary: "A comprehensive review of security vulnerabilities and challenges in Internet of Things ecosystems."
 
-    languages:
-      - label: English
-        details: Fluent
-      - label: Urdu
-        details: Native
+    Awards:
+      - title: Gold Medal
+        authors:
+          - National Textile University, Faisalabad, Pakistan
+        date: 2018
+        awarder: National Textile University
+        summary: "Awarded for achieving first position in MS Computer Science."
+
+    Skills:
+      - name: Programming Languages
+        level: Expert
+        icon: fa-solid fa-code
+        keywords: "Python, MATLAB, C/C++, C#, Java, SQL, PHP, HTML, CSS"
+
+      - name: Computer Vision & AI
+        level: Expert
+        icon: fa-solid fa-eye
+        keywords: "3D Gaussian Splatting, Novel View Synthesis, Deep Learning, Generative Models, Sparse-View Reconstruction, Point Cloud Processing"
+
+      - name: Tools & Frameworks
+        level: Advanced
+        icon: fa-solid fa-wrench
+        keywords: "PyTorch, OpenCV, MATLAB, Anaconda, Linux, NS-2"
+
+    Languages:
+      - name: English
+        summary: "Fluent"
+
+      - name: Urdu
+        summary: "Native"
+
+    References:
+      - name: Prof. Zhanglin Cheng
+        icon: fa-solid fa-user
+        reference: "Supervisor, Shenzhen VisuCA Key Lab, SIAT, Chinese Academy of Sciences. zl.cheng@siat.ac.cn"
+
+      - name: Dr. Dawar Khan
+        icon: fa-solid fa-user
+        reference: "Collaborator, King Abdullah University of Science and Technology (KAUST). dawar.khan@kaust.edu.sa"
